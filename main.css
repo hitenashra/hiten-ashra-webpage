@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300&family=Syne+Mono&display=swap');
+/* INDEX/HOMEPAGE */
+
+body {
+    background-color: rgb(145, 145, 145);
+}
+
+.webdevelopment {
+    padding: 5%;
+    flex: 1 1 80%;
+    min-height: 50vh;
+}
+.website {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    grid-gap: 20px;
+}
+.website-page {
+    background: black;
+    color: red;
+    font-weight: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    color: blue;
+    font-family: 'Syne Mono', monospace;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.website-page.small-square {
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    grid-row: span 6;
+    grid-column: span 4;
+    background-image: url(images/chair7.jpg);
+    background-color: white;
+    background-size: 150%;
+    background-position: center;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+.website-page.square.one{
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    grid-row: span 9;
+    grid-column: span 8;
+    background-image: url(images/chair4.jpg);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+.website-page.square.two{
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    grid-row: span 9;
+    grid-column: span 8;
+    background-image: url(images/chair6.jpg);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+.website-page.large-square {
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    grid-row: span 12;
+    grid-column: span 12;
+    background-image: url(images/chair3.jpg);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+.website-page.tall {
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    grid-row: span 14;
+    grid-column: span 8;
+    background-image: url(images/chair2.jpg);
+    background-color: white;
+    background-size: 200%;
+    background-position: center;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+.website-page.wide {
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    grid-row: span 8;
+    grid-column: span 12;
+    background-image: url(images/chair1.jpg);
+    background-color: white;
+    background-size: 110%;
+    background-position: center;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+
+/* ABOUT ME */
+.sidebar {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* font-family: 'Inter', sans-serif; */
+    word-spacing: 25px;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+.aboutme {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    padding: 60px;
+    margin: 80px;
+    align-content: center;
+}
+p{
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
+
+/* UNIT 1 OUTCOME 1 */
+.outcome {
+    color: blue;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    padding-top: 100px;
+    transition: ease-in-out 600ms;
+    background-blend-mode: initial;
+}
+.onepoint1 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    align-content: center;
+    padding: 25px;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    margin: 25px;
+}
+#onepoint2 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    align-content: center;
+    padding: 35px;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    margin: 25px;
+}
+.title {
+    text-align: center;
+}
+.onepoint3 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    align-content: center;
+    padding: 35px;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    margin: 25px;
+}
+.onepoint4 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    align-content: center;
+    padding: 35px;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    margin: 25px;
+}
+.onepoint5 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    align-content: center;
+    padding: 35px;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    margin: 25px;
+}
+.onepoint6 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    align-content: center;
+    padding: 35px;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    margin: 25px;
+}
+.onepoint7 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    align-content: center;
+    padding: 35px;
+    border-style: ridge;
+    border-radius: 50px;
+    border-color: chartreuse;
+    margin: 25px;
+}
+
+/* UNIT 1 REVIEW */
+.review{
+    color: blue;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    padding-top: 100px;
+    transition: ease-in-out 600ms;
+    background-blend-mode: initial;
+}
+
+/* CONTACT */
+.contact {
+    color: blue;
+    text-align: center;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    border-style: ridge;
+    border-radius: 100px;
+    border-color: chartreuse;
+    padding: 10px;
+    margin: 180px;
+    align-content: center;
+    transition: ease-in-out 1000ms;
+    background-blend-mode: initial;
+}
